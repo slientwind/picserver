@@ -3,10 +3,7 @@ eureka:
     serviceUrl:
       defaultZone: http://localhost:8899/eureka/
 server:
-  port: 8900
+  port: 8902
 spring:
   application:
-    name: service-core
-  data:
-    mongodb:
-      database:
+    name: service-process
