@@ -9,4 +9,7 @@ spring:
     name: service-core
   data:
     mongodb:
-      database:
+      host: localhost
+      port: 27017
+      database: mongo
+
